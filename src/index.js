@@ -13,7 +13,7 @@ function Rating() {
   };
   return (
     <div>
-      <App color="green" maxRating={10} onSetRating={setMovieRating} />
+      <App maxRating={10} onSetRating={setMovieRating} />
       <p style={txt}>
         This movie was rated <b>{movieRating}</b> star
       </p>
